@@ -1,0 +1,641 @@
+<!DOCTYPE html>
+<html lang="en">
+    <!--<< Header Area >>-->
+    
+<!-- Mirrored from pixydrops.com/remons/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 Jul 2024 09:13:10 GMT -->
+<head>
+        <!-- ========== Meta Tags ========== -->
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta name="author" content="pixydrops">
+        <meta name="description" content="Remons - Booking Rental HTML Template">
+        <!-- ======== Page title ============ -->
+        <title>Remons - Booking Rental HTML Template</title>
+        <!--<< Favcion >>-->
+        <link rel="shortcut icon" href="assets/img/favicon.png">
+        <!--<< Bootstrap min.css >>-->
+        <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+        <!--<< All Min Css >>-->
+        <link rel="stylesheet" href="assets/css/all.min.css">
+        <!--<< Animate.css >>-->
+        <link rel="stylesheet" href="assets/css/animate.css">
+        <!--<< Magnific Popup.css >>-->
+        <link rel="stylesheet" href="assets/css/magnific-popup.css">
+        <!--<< MeanMenu.css >>-->
+        <link rel="stylesheet" href="assets/css/meanmenu.css">
+        <!--<< DatePicker.css >>-->
+        <link rel="stylesheet" href="assets/css/datepickerboot.css">
+        <!--<< Swiper Bundle.css >>-->
+        <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+        <!--<< Nice Select.css >>-->
+        <link rel="stylesheet" href="assets/css/nice-select.css">
+        <!--<< Main.css >>-->
+        <link rel="stylesheet" href="assets/css/main.css">
+
+        <style>
+            .whatsapp {
+            position: fixed;
+            bottom: 95px;
+            right: 20px;
+            z-index: 1;
+            transition: all 0.4s ease-in-out;
+            visibility: visible;
+        }
+        
+        .whatsapp_img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        
+        .whatsapp_img:hover {
+            transform: scale(1.1);
+        }
+        
+        @media only screen and (max-width:600px){
+            .whatsapp{
+                width: 13%;
+                height: 7%;
+            }
+        
+            .whatsapp_img{
+                width: 120%;
+                height: 120%;
+            }
+        }
+        
+        
+        
+        
+        
+       
+            .call {
+            position: fixed;
+            bottom: 155px;
+            right: 28px;
+            z-index: 1;
+            transition: all 0.4s ease-in-out;
+            visibility: visible;
+        }
+        
+        .call_img {
+            width: 40px;
+            height: 35px;
+            border-radius: 50%;
+            cursor: pointer;
+        }
+        
+        .call_img:hover {
+            transform: scale(1.1);
+        }
+        
+        @media only screen and (max-width:600px){
+            .call{
+                width: 10%;
+                height: 7%;
+            }
+        
+            .call_img{
+                width: 138%;
+                height:98%;
+            }
+        }
+        
+
+
+        body {
+        font-family: Arial, sans-serif;
+        background-color: #f0f4f8;
+        color: #333;
+        margin: 0;
+        padding: 20px;
+        }
+
+        .container {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .contact-block-info {
+            height: 70vh;
+            margin-left: 100px;
+        margin-top:50px;
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            border-radius: 8px;
+            width: 30%;
+        /* height:70px;*/
+            position: relative; /* Added for positioning */
+            top: -7px; /* Adjust as needed */
+        }
+
+        .contact-block-info h1 {
+            color: white;
+    font-size: 37px;
+    margin: 0 0 20px;
+    /* margin-left: 24px; */
+        }
+
+        .contact-block-info h2 {
+            color: white;
+            margin: 10px 0 5px;
+            display: flex;
+            align-items: center;
+            font-size: 26px;
+        }
+
+        .contact-block-info h2 i {
+            margin-right: 10px; /* Space between icon and text */
+        }
+
+        .contact-block-info p {
+            margin: 5px 0;
+        }
+
+        .map {
+            width: 65%;
+        }
+
+        .map h2 {
+            margin: 0 0 10px;
+        }
+
+        .map p {
+            margin: 5px 0;
+        }
+
+        .map .address{
+            background-color: white;
+            color: gray;
+        }
+        .rating {
+            margin: 10px 0;
+        }
+
+        .rating span {
+            margin-right: 10px;
+        }
+
+        /* .social{
+            background-color: rgb(220, 238, 246);
+        } */
+        .icons {
+            font-size: 20px;
+            size: 96px;
+    /* position: absolute; */
+    /* align-items: normal; */
+    top: 78vh;
+    /* right: 20px; */
+    left: 170px;
+    list-style: none;
+    margin-top: 141px;
+    margin-left: 28px;
+    padding: 0;
+    display: inline-grid;
+    gap: 49px;
+        }
+
+
+
+        .icons li {
+            margin-right: 10px;
+        }
+
+        .icons li:last-child {
+            margin-right: 0;
+        }
+        .contact-block{
+            display: flex;
+        }
+
+</style>
+</head>
+<body>
+    
+
+
+        <!-- Back To Top Start -->
+        <div class="scroll-up">
+            <svg class="scroll-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+                <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" />
+            </svg>
+        </div>
+
+        <div class="whatsapp">
+            <a href="https://wa.link/68vkov" target="_blank">
+                <img src="assets/img/WhatsApp_icon.png" alt="" height=100% width="70%" class="whatsapp_img">
+            </a>
+        </div>
+        
+        <div class="call">
+            <a href="tel:+919637095999" target="_blank">
+            <img src="assets/img/call.webp" alt="" height=100% width="70%" class="call_img">
+        </a>
+        </div>
+
+              <!-- Header Section Start -->
+        <header id="header-sticky" class="header-1">
+            <div class="container-fluid">
+                <div class="mega-menu-wrapper">
+                    <div class="header-main">
+                        <div class="header-left">
+                            <div class="logo">
+                                <a href="index.html" class="header-logo">
+                                    <img src="assets/img/logo/black-logo1.jpg" alt="logo-img">
+                                </a>
+                            </div>
+                            <div class="mean__menu-wrapper">
+                                <div class="main-menu">
+                                    <nav id="mobile-menu">
+                                        <ul>
+                                            <li class="has-dropdown active menu-thumb">
+                                                <a href="index.html">
+                                                Home 
+                                                <!-- <i class="fas fa-angle-down"></i> -->
+                                                </a>
+                                               
+                                            </li>
+                                            <li>
+                                                <a href="about.html">About Us</a>
+
+                                                <li class="has-dropdown">
+                                                    <!-- <a href="services.html"> -->
+                                                        Services
+                                                        <i class="fas fa-angle-down"></i>
+                                                    </a>
+                                                    <ul class="submenu">
+                                                        <li><a href="services.html">kolhapur to pune car rental</a></li>
+                                                        <li><a href="services.html">Airpot PIck up and Drop services</a></li>
+                                                        <li><a href="services.html">kolhapur Darshan</a></li>
+                                                    </ul>
+                                                </li>
+
+                                            </li>
+                                            <li class="has-dropdown">
+                                                <a href="gallery.html">
+                                                Gallery
+                                                    <!-- <i class="fas fa-angle-down"></i> -->
+                                                </a>
+                                                <!-- <ul class="submenu">
+                                                    <li><a href="gallery.html">Gallery</a></li>
+                                                    <li><a href="faq.html">Faq's</a></li>
+                                                </ul> -->
+                                            </li>
+                                            <li>
+                                                <a href="contact.html">Contact</a>
+                                            </li>
+                                        </ul>
+                                    </nav>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="header-right d-flex justify-content-end align-items-center">
+                            <div class="icon-items">
+                                <div class="icon">
+                                    <i class="fas fa-phone-alt"></i>
+                                </div>
+                                <div class="content">
+                                    <p>Call Anytime</p>
+                                    <h6><a href="tel:+9196370 95999">+91 96370 95999</a></h6>
+                                </div>
+                            </div>
+                            <!-- <a href="#0" class="search-trigger search-icon"><i class="fa-regular fa-magnifying-glass"></i></a> -->
+                            <!-- <div class="header-button">
+                                <a href="car-details.html" class="header-btn">
+                                    Find a Car
+                                </a>
+                            </div>
+                            <div class="header__hamburger d-xl-none my-auto">
+                                <div class="sidebar__toggle">
+                                    <i class="fas fa-bars"></i>
+                                </div>
+                            </div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!-- Search Area Start -->
+     
+        <!--<< Breadcrumb Section Start >>-->
+        <div class="breadcrumb-wrapper bg-cover" style="background-image: url('assets/img/bg-header-banner.jpg');">
+            <div class="container">
+                <div class="page-heading">
+                    <ul class="breadcrumb-items wow fadeInUp" data-wow-delay=".3s">
+                        <li>
+                            <a href="index.html">
+                                Home
+                            </a>
+                        </li>
+                        <li>
+                            <i class="fas fa-chevron-right"></i>
+                        </li>
+                        <li>
+                            Contact
+                        </li>
+                    </ul>
+                    <h1 class="wow fadeInUp" data-wow-delay=".5s">Contact</h1>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="container">
+            <div class="contact-block">
+                <div class="social">
+                <ul class="icons">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                </ul>
+            </div>
+               
+                <div class="contact-block-info">
+                    <h1>Get In Touch</h1>
+                    <div class="meet-us">
+                        <h2><i class="fas fa-map-marker-alt"></i> Meet Us</h2>
+                        <p>Bavdhan, Pune 411008</p>
+                        <p>New Bus Stand Road, Jalgaon 425001</p>
+                    </div>
+                    <div class="call-us">
+                        <h2><i class="fas fa-phone-alt"></i> Call Us</h2>
+                        <p>+918007644449 | +919422275795</p>
+                    </div>
+                    <div class="email-us">
+                        <h2><i class="fas fa-envelope"></i> Email Us</h2>
+                        <p>info@anujatravels.com | anuja.travels1@gmail.com</p>
+                    </div>
+                </div>
+                <div class="map">
+                    <h2>Anuja Travels</h2>
+                    <!-- <div class="rating">
+                        <span>4.8 ★</span>
+                        <span>23 reviews</span>
+                    </div> -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d61151.816865445035!2d74.11502484863279!3d16.677456199999995!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1abb8b835ca3d%3A0xd1fa82e3c5eaa084!2sSiddhivinayak%20Travels!5e0!3m2!1sen!2sin!4v1728547654222!5m2!1sen!2sin" width="900" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>  </div>
+        </div>
+        </div>
+
+
+        <!-- Contact Section Start -->
+        <!-- <section class="contact-section-1 fix section-padding pb-0">
+            <div class="container">
+                <div class="contact-wrapper-area">
+                   
+                         <div class="col-lg-9">
+                            <div class="contact-content">
+
+
+
+                                <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-5 wk-ipadp-10" id="ifgi">
+                                    <div class="container-box">
+                                      <div class="text-content">
+                                        <div class="section-title" style="text-align: center;">
+                                            <img src="assets/img/sub-icon.png" alt="icon-img" class="wow fadeInUp">
+                                            <span class="wow fadeInUp" data-wow-delay=".2s">contact us</span>
+                                            <h2 class="wow fadeInUp" data-wow-delay=".4s">
+                                                Drop us a Line
+                                            </h2>
+                                        </div>
+                                        <p class="text-blk contactus-subhead">
+                                          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna al iqua. Ut enim
+                                        </p>
+                                      </div>
+                                      <div class="workik-contact-bigbox">
+                                        <div class="workik-contact-box">
+                                          <div class="phone text-box">
+                                            <a href="tel:9196370 95999">
+                                            <img class="contact-svg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET21.jpg">  
+                                            <p class="contact-text">
+                                              +91 96370 95999
+                                            </p>
+                                        </a>
+                                          </div>
+                                      
+                                          <hr/>
+                                          <div class="address text-box"><a href="https://maps.app.goo.gl/BP9xFNuQXxDGi2a99">
+                                            <img class="contact-svg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET22.jpg">
+                                            <p class="contact-text">
+                                                booking@siddhivinayakcars.in
+                                            </p></a>
+                                          </div>
+                                          <hr/>
+                                          <div class="mail text-box">
+                                            <a href="https://maps.app.goo.gl/BP9xFNuQXxDGi2a99">
+                                            <img class="contact-svg" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/ET23.jpg">
+                                            <p class="contact-text">
+                                                R.S. No 1122/1A/2, A ward, Ring Rd, near Gangai Lawn Multipurpose Hall, Phulewadi, Kolhapur, Maharashtra 416010
+                                            </p></a>
+                                          </div>
+                                          <hr/>
+                                          <div class="instagram text-box">
+                                            <a href="">
+                                                <img class="social-svg" id="ib9ve" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg">
+                                              
+                                              <p class="contact-text">priyadarshni INSTA</p></a>
+                                          </div>
+                                        <hr/>
+                                          <div class="facebook text-box">
+                                            <a href="">
+                                                <img class="social-svg" id="ie9fx" src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg">
+                                           
+                                              <p class="contact-text">priyadarshnifacebook</p> </a>
+                                          </div>
+                                        <hr/>
+                                        <div class="whatsapp1 text-box">
+                                            <a href="https://wa.link/68vkov" target="_blank">
+                                                <img class="social-svg" id="ib9ve" src="assets/img/R.png">
+                                              
+                                              <p class="contact-text">Siddhivinayak Tours & Car Rentals whatsapp</p></a>
+                                          </div>
+                                        </div>
+                                          </div>
+                                    </div>
+                                  </div>
+                                </div>
+
+                                   </div>
+                        </div> 
+                      </div>
+                   </div>
+                </div>
+            </div>
+        </section> -->
+
+        <!--<< Map Section Start >>-->
+        <!-- <div class="map-section">
+            <div class="map-items">
+                <div class="googpemap">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d61151.816865445035!2d74.1150248!3d16.6774562!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc1abb8b835ca3d%3A0xd1fa82e3c5eaa084!2sSiddhivinayak%20Travels!5e0!3m2!1sen!2sin!4v1728391381956!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div> -->
+
+
+        <!-- Cta Cheap Rental Section Start -->
+        <section class="cta-cheap-rental-section">
+            <div class="container">
+                <div class="cta-cheap-rental">
+                    <div class="cta-cheap-rental-left wow fadeInUp" data-wow-delay="
+                    .3s">
+                        <div class="logo-thumb">
+                            <a href="index.html">
+                                <img src="assets/img/logo/black-logo1.jpg" alt="logo-img">
+                            </a>
+                        </div>
+                        <h4 class="text-white">Save big with our cheap car rental</h4>
+                    </div>
+                    <div class="social-icon d-flex align-items-center wow fadeInUp" data-wow-delay="
+                    .5s">
+                        <a href="#"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer Section Start -->
+        <footer class="footer-section fix">
+            <div class="container">
+                <div class="footer-widgets-wrapper">
+                    <div class="row">
+                        <div class="col-xl-3 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".2s">
+                            <div class="single-footer-widget shape-map">
+                                <div class="widget-head">
+                                    <h4>Contact</h4>
+                                </div>
+                                <div class="footer-content">
+                                    <p>
+                                        R.S. No 1122/1A/2, A ward, Ring Rd, near Gangai Lawn Multipurpose Hall, Phulewadi, Kolhapur, Maharashtra 416010
+                                    </p>
+                                    <ul class="contact-block-info">
+                                        <li>
+                                            <i class="fa-regular fa-envelope"></i>
+                                            <a href="mailto:booking@siddhivinayakcars.in">booking@siddhivinayakcars.in</a>
+                                        </li>
+                                        <li>
+                                            <i class="fa-solid fa-phone-volume"></i>
+                                            <a href="tel:9196370 95999">+91 96370 95999</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xl-2 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".4s">
+                              </div>
+                        <div class="col-xl-4 col-lg-4 col-md-6 wow fadeInUp" data-wow-delay=".6s">
+                            <div class="single-footer-widget">
+                                <div class="widget-head">
+                                    <h4>Gallery</h4>
+                                </div>
+                                <div class="footer-gallery">
+                                    <div class="gallery-wrap">
+                                        <div class="gallery-item">
+                                            <div class="thumb">
+                                                <a href="assets/img/footer/img1.jpg" class="img-popup">
+                                                    <img src="assets/img/footer/img1.jpg" alt="gallery-img">
+                                                    <div class="icon">
+                                                        <i class="far fa-plus"></i>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="thumb">
+                                                <a href="assets/img/footer/img2.jpg" class="img-popup">
+                                                    <img src="assets/img/footer/img2.jpg" alt="gallery-img">
+                                                    <div class="icon">
+                                                        <i class="far fa-plus"></i>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="thumb">
+                                                <a href="assets/img/footer/img3.jpg" class="img-popup">
+                                                    <img src="assets/img/footer/img3.jpg" alt="gallery-img">
+                                                    <div class="icon">
+                                                        <i class="far fa-plus"></i>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="gallery-item">
+                                            <div class="thumb">
+                                                <a href="assets/img/footer/img4.jpg" class="img-popup">
+                                                    <img src="assets/img/footer/img4.jpg" alt="gallery-img">
+                                                    <div class="icon">
+                                                        <i class="far fa-plus"></i>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="thumb">
+                                                <a href="assets/img/footer/img5.jpg" class="img-popup">
+                                                    <img src="assets/img/footer/img5.jpg" alt="gallery-img">
+                                                    <div class="icon">
+                                                        <i class="far fa-plus"></i>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                            <div class="thumb">
+                                                <a href="assets/img/footer/img6.jpg" class="img-popup">
+                                                    <img src="assets/img/footer/img6.jpg" alt="gallery-img">
+                                                    <div class="icon">
+                                                        <i class="far fa-plus"></i>
+                                                    </div>
+                                                </a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <div class="footer-wrapper">
+                        <p class="wow fadeInUp" data-wow-delay=".4s">
+                            © Copyright 2024 by <a href="index.html">Siddhivinayak Travel & Car Rentals</a>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        
+        <!--<< All JS Plugins >>-->
+        <script src="assets/js/jquery-3.7.1.min.js"></script>
+        <!--<< Viewport Js >>-->
+        <script src="assets/js/viewport.jquery.js"></script>
+        <!--<< Bootstrap Js >>-->
+        <script src="assets/js/bootstrap.bundle.min.js"></script>
+        <!--<< Nice Select Js >>-->
+        <script src="assets/js/jquery.nice-select.min.js"></script>
+        <!--<< Waypoints Js >>-->
+        <script src="assets/js/jquery.waypoints.js"></script>
+        <!--<< Counterup Js >>-->
+        <script src="assets/js/jquery.counterup.min.js"></script>
+        <!--<< Datepicker Js >>-->
+        <script src="assets/js/bootstrap-datepicker.js"></script>
+        <!--<< Swiper Slider Js >>-->
+        <script src="assets/js/swiper-bundle.min.js"></script>
+        <!--<< MeanMenu Js >>-->
+        <script src="assets/js/jquery.meanmenu.min.js"></script>
+        <!--<< Magnific Popup Js >>-->
+        <script src="assets/js/jquery.magnific-popup.min.js"></script>
+        <!--<< GSAP Animation Js >>-->
+        <script src="assets/js/animation.js"></script>
+        <!--<< Wow Animation Js >>-->
+        <script src="assets/js/wow.min.js"></script>
+        <!--<< Ajax-Mail.js >>-->
+        <script src="assets/js/ajax-mail.js"></script>
+        <!--<< Main.js >>-->
+        <script src="assets/js/main.js"></script>
+    </body>
+
+<!-- Mirrored from pixydrops.com/remons/contact.html by HTTrack Website Copier/3.x [XR&CO'2014], Wed, 31 Jul 2024 09:13:16 GMT -->
+</html>
